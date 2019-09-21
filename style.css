@@ -16,4 +16,19 @@ body {
 .btn-large {
   border: 2px solid #45A29E !important;
   background-color: #0B0C10 !important;
+	margin-bottom: 20vh;
+}
+.btn-large:hover {
+	  background-color: #45A29E !important;
+}
+.modal img {
+	width: 80%;
+	height: auto;
+}
+.modal, .modal-footer {
+	  background-color: #0B0C10 !important;
+}
+.modal-footer a {
+			color: #C5C6C7 !important;
+
 }

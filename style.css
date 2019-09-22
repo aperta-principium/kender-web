@@ -57,5 +57,8 @@ body {
 }
 .sidenav li, .sidenav li > a, .material-icons {
 	 color: #C5C6C7 !important;
-
+}
+.sidenav-trigger > i:nth-child(1) {
+	width: 100px;
+	height: 100px;
 }

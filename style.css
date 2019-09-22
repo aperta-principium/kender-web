@@ -26,10 +26,10 @@ body {
 	height: auto;
 }
 .modal, .modal-footer {
-	  background-color: #0B0C10 !important;
+	background-color: #0B0C10 !important;
 }
 .modal-footer a {
-			color: #C5C6C7 !important;
+	color: #C5C6C7 !important;
 }
 #name {
 	font-size: 2.7rem;
@@ -50,4 +50,12 @@ body {
 	#about>.row>div>img {
 		width: 30%;
 	}
+}
+.sidenav {
+ background-color: #1F2833 !important;
+ color: #C5C6C7 !important;
+}
+.sidenav li, .sidenav li > a, .material-icons {
+	 color: #C5C6C7 !important;
+
 }

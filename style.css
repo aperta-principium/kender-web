@@ -72,3 +72,8 @@ body {
 html body section#contact.row div {
   font-size: 1.5rem;
 }
+.logo {
+	filter: invert(100);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}

@@ -27,3 +27,6 @@ $('.logo').on('click', function() {
 			$('.logo').css({'opacity' : '0'});
  			setTimeout(function(){ $('.logo').css({'display' : 'none'}); }, 1700);
 });
+function beforeAfter() {
+  document.getElementById('compare').style.width = document.getElementById('slider').value + "%";
+}

@@ -76,4 +76,11 @@ html body section#contact.row div {
 	filter: invert(100);
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
+	transition-duration: 2s;
+}
+#about {
+margin-top: 200px;
+}
+.img-full {
+	width: 80vw;
 }

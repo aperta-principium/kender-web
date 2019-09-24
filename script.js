@@ -21,3 +21,9 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
+
+$('.logo').on('click', function() {
+	    $('.logo').css({'transform' : 'rotate('+ 180 +'deg)'});
+			$('.logo').css({'opacity' : '0'});
+ 			setTimeout(function(){ $('.logo').css({'display' : 'none'}); }, 1700);
+});

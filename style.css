@@ -175,7 +175,7 @@ input#slider::-ms-tooltip {
 	display:none;
 }
 #compare::before {
-	background: url(https://webdevtrick.com/wp-content/uploads/comparision.png) no-repeat scroll 0 center transparent;
+	background: url(img/pr/comparision.png) no-repeat scroll 0 center transparent;
 	background-size:contain;
 	content: " ";
 	float: right;

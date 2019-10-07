@@ -4,254 +4,153 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-	<title>AVLK</title>
+	<title>Kender a.s.(s)</title>
 	<link href="style.css" rel="stylesheet" type="text/css" />
-	<link rel="shortcut icon" type="image/png" href="img/logo.png" />
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" rel="stylesheet" />
-	<link href="https://cdn.jsdelivr.net/gh/peachananr/onepage-scroll/onepage-scroll.css" rel="stylesheet" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-</head>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+</head>
+<header>
+	<!-- Menu -->
+
+  <ul id="slide-out" class="sidenav">
+    <li><div class="user-view">
+      <div class="background">
+      </div>
+      <a><img class="circle logo" src="img/pr/logo.svg"></a>
+    </div></li>
+    <li>
+			<a id="link" href="#hero">
+				<i class="material-icons">home</i> <!-- ikonka -->
+				Domů <!-- nápis menu -->
+			</a>
+		</li>
+    <li>
+			<a href="#port">
+				<i class="material-icons">smartphone</i> <!-- ikonka -->
+				Portfolio <!-- nápis menu -->
+			</a>
+		</li>
+    <li>
+			<a href="#about">
+				<i class="material-icons">person</i> <!-- ikonka -->
+				O nás <!-- nápis menu -->
+			</a>
+		</li>
+		<li>
+		  <a href="#contact">
+		    <i class="material-icons">message</i>
+		    Kontakty 
+		  </a>
+		</li>
+  </ul>
+  <a href="#" data-target="slide-out" class="sidenav-trigger sticky"><i class="material-icons medium">menu</i></a>
+</header>
+<!-- Hero  -->
 
 <body>
-<div class="main">
-<section class="section sec1"><h1 class="center">AVLK</h1></section>
-<section class="section about"><h1 class="center">O nás</h1>
-<p class="about center">
-Věnujeme se dětem již v předškolním věku a hlavní snahou a cílem našeho klubu je péče o děti se zaměřením na aktivní využití volného času v místě jejich bydliště.
-Smyslem "mini přípravek" je pak umožnit všem dětem, jak sportovním talentům, tak i méně zdatným zapálencům, osvojit si základní pohybové dovednosti a poznat sportovní atmosféru. Důraz je zároveň kladen na individuální přístup v malých tréninkových skupinách. Věnujeme se základům všech sportovních disciplín tak, aby byl zajištěn všestranný tělesný rozvoj dětí. Po absolvování mini přípravek je zajištěna návaznost na závodní oddíly volejbalu,florbalu,basketbalu a plavání.
-V závodních oddílech si již klademe vyšší cíle. Chceme vychovávat mládežnickou základnu na takové úrovni, aby naši odchovanci byli platnými hráči ligových družstev i reprezentačních týmů. Chceme, aby naši závodní hráči měli zajištěnu profesionální péči kvalitními trenéry počínaje a rehabilitační a lékařskou péčí konče.
-</p>
+	<section id="hero">
+		<div class="section no-pad-bot">
+			<div class="container">
+				<br><br>
+        <h1 class="header center text-lighten-2">
+					Kender
+					<h4 class="center">a.s.(s) </h4>
+				</h1>
 
+        <div class="row center">
+          <h5 class="header col s12 light">aneb všechno co si dokážete představit na mobilu</h5>
+        </div>
+        <div class="row center">
+          <a href="#port" id="download-button" class="btn-large waves-effect waves-light">Produkty</a>
+        </div>
 
-</section>
-
-<section class="section timetable-vol center"><h1 class="section-head center" style="color: white;">Volejbal</h1>
-
-
-      <ul class="responsive-table">
-    <li class="table-header">
-      <div class="col col-1">Den</div>
-      <div class="col col-2">Čas</div>
-    </li>
-    <li class="table-row">
-      <div class="col col-1" data-label="Den">Pondělí, Úterý, Čtvrtek, Pátek</div>
-      <div class="col col-2" data-label="Čas">18:00- 20:00</div>
-    </li>
-
-  </ul>
-</section>
-
-<section class="section timetable-swm"><h1 class="section-head center" style="color: white;">Plavání</h1>
-
-
-      <ul class="responsive-table center">
-    <li class="table-header">
-      <div class="col col-1">Den</div>
-      <div class="col col-2">Čas</div>
-    </li>
-    <li class="table-row">
-      <div class="col col-1" data-label="Den">Pondělí, Úterý, Středa, Čtvrtek</div>
-      <div class="col col-2" data-label="Čas">17:30-18:30, út 18:00-19:00</div>
-    </li>
-
-  </ul>
-</section>
-
-<section class="section timetable-bst"><h1 class="section-head center" style="color: white;">Basketbal</h1>
-
-
-      <ul class="responsive-table center">
-    <li class="table-header">
-      <div class="col col-1">Den</div>
-      <div class="col col-2">Čas</div>
-    </li>
-    <li class="table-row">
-      <div class="col col-1" data-label="Den">Úterý, Středa, Čtvrtek</div>
-      <div class="col col-2" data-label="Čas">17:45-19:00</div>
-    </li>
-
-  </ul>
-</section>
-<section class="section timetable-flr"><h1 class="section-head center" style="color: white;">Florbal</h1>
-
-
-      <ul class="responsive-table center">
-    <li class="table-header">
-      <div class="col col-1">Den</div>
-      <div class="col col-2">Čas</div>
-    </li>
-    <li class="table-row">
-      <div class="col col-1" data-label="Den">Úterý, Čtvrtek</div>
-      <div class="col col-2" data-label="Čas">16:45-17:45</div>
-    </li>
-
-  </ul>
-</section>
-<section class="section timetable-atl"><h1 class="section-head center" style="color: white;">Mini přípravka atletika</h1>
-
-
-      <ul class="responsive-table center">
-    <li class="table-header">
-      <div class="col col-1">Den</div>
-      <div class="col col-2">Čas</div>
-    </li>
-    <li class="table-row">
-      <div class="col col-1" data-label="Den">Pondělí, Pátek</div>
-      <div class="col col-2" data-label="Čas">17:45-19:00</div>
-    </li>
-
-  </ul>
-</section>
-<section id="cenik" class="pricetable"> 
-	<div class="pricing-container">
-
-		<ul class="pricing-list bounce-invert">
-			<li>
-				<ul class="pricing-wrapper">
-
-					<li data-type="yearly" class="is-visible">
-						<header class="pricing-header">
-							<h2>Basketbal</h2>
-							<div class="price">
-								<span class="currency">Kč</span>
-								<span class="value">1500</span>
-								<span class="duration">rok</span>
-							</div>
-						</header>
-						<div class="pricing-body">
-
-						</div>
-
-					</li>
-				</ul>
-			</li>
-			<li class="">
-				<ul class="pricing-wrapper">
-
-					<li data-type="yearly" class="is-visible">
-						<header class="pricing-header">
-							<h2>Volejbal</h2>
-							<div class="price">
-								<span class="currency">Kč</span>
-								<span class="value">7000</span>
-								<span class="duration">rok</span>
-							</div>
-						</header>
-						<div class="pricing-body">
-
-						</div>
-
-					</li>
-				</ul>
-			</li>
-						<li>
-				<ul class="pricing-wrapper">
-
-					<li data-type="yearly" class="is-visible">
-						<header class="pricing-header">
-							<h2>Florbal</h2>
-							<div class="price">
-								<span class="currency">Kč</span>
-								<span class="value">2500</span>
-								<span class="duration">rok</span>
-							</div>
-						</header>
-						<div class="pricing-body">
-
-						</div>
-
-					</li>
-					
-				</ul>
-			</li>
-
-		</ul>
-	</div>
-</section>
-<section class="pricetable">
-		<div class="pricing-container">
-		<ul class="pricing-list bounce-invert">
-			<li>
-				<ul class="pricing-wrapper">
-
-
-					</li>
-					<li data-type="yearly" class="is-visible">
-						<header class="pricing-header">
-							<h2>Plavání</h2>
-							<div class="price">
-								<span class="currency">Kč</span>
-								<span class="value">9000</span>
-								<span class="duration">rok</span>
-							</div>
-						</header>
-						<div class="pricing-body">
-
-						</div>
-
-					</li>
-				</ul>
-			</li>
-			<li>
-				<ul class="pricing-wrapper">
-
-					<li data-type="yearly" class="is-visible">
-						<header class="pricing-header">
-							<h2>Atletika</h2>
-							<div class="price">
-								<span class="currency">Kč</span>
-								<span class="value">3000</span>
-								<span class="duration">rok</span>
-							</div>
-						</header>
-						<div class="pricing-body">
-
-						</div>
-
-					</li>
-					
-				</ul>
-			</li>
-			<li>
-				<ul class="pricing-wrapper">
-
-
-					
-				</ul>
-			</li>
-		</ul>
-	</div>
-</section>
-<section id="contact">
-  <h2 class="center"> Kontakty </h2>
-	<div class="row">
-  <div class="col s12 l4 center">
-    AVLK
-    <br>
-    Adresa: Sportovní centrum Kbely Praha 19
-    <br>
-    Telefon: <a href="tel:00420723258746"> +420 723 258 746</a>
-    <br>
-    E-mail: <a href="mailto:avlk@mail.com">avlk@mail.com </a>
+      </div>
+    </div>
+ 
   </div>
-	  <div class="col s12 l8 center">
-			<iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=14.542803168296814%2C50.1342602951251%2C14.546343684196474%2C50.13578870286973&amp;layer=mapnik&amp;marker=50.135024505100226%2C14.544573426246643" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=50.13502&amp;mlon=14.54457#map=19/50.13502/14.54457">Zvětšit mapu</a></small>
-	  </div>
+  </section>
+<!-- Produkty -->
+<section id="port">
+	<div class="row center">
+      <h2>Kender produkty</h2>
+
+      <h3 class="product">Kender Opener®</h3>
+      <img class="img-full" src="img/pr/drill.jpg"> 
+      <br>
+      <h3 class="product">Kender Knife®</h3>
+      <img class="img-full" src="img/pr/knife.jpg"> 
+      <br>
+      <h3 class="product">Kender Lighter®</h3>
+      <img class="img-full" src="img/pr/lighter.jpg"> 
+      <br>
+      <h3 class="product">Kender Saw®</h3>
+      <img class="img-full" src="img/pr/saw.jpg">       
+      <br>
+      <h3 class="product">Kender Screwdriver®</h3>
+      <img class="img-full" src="img/pr/screwdriver.jpg">       
+
+      <h3 class="product">Váš telefon s vs. bez Kenderu Deluxe®</h3>
+
+      <div class="container">
+          <figure>
+            <div id="compare"></div>
+          </figure>
+          <input oninput="beforeAfter()" onchange="beforeAfter()" type="range" min="0" max="100" value="50" id="slider"/>
+        </div>
+        
+
 	</div>
 </section>
-<section class="madeBy"> 
+
+<!-- o nás -->
+
+<section id="about">
+	<div class="row center">
+  <h2>O nás</h2>
+	<br>
+	<br>
+
+  <div class="col s12"><img src="img/p/klarka.png"><br><span id="name">Klára Machová</span><br><span id="post">Designérka (psychicky podporuje Zuzku)</span></div>
+	<div class="col s12"><img src="img/p/zuzka.png"><br><span id="name">Zuzana Halousková</span><br><span id="post">Upír na dietě (mluvčí produktového vývoje)</span></div>
+	<div class="col s12"><img src="img/p/oliver.png"><br><span id="name">Oliver Filip Novotný</span><br><span id="post">Sociální správce</span></div>
+	<div class="col s12"><img src="img/p/vlada.png"><br><span id="name">Vladimír Svoboda</span><br><span id="post">Manažering a produktový vývojing</span></div>
+	<div class="col s12"><img src="img/p/filip.png"><br><span id="name">Filip Troníček</span><br><span id="post">Správce serveru a hlavní technik </span></div>
+
+
+
+	</div>
+</section>
+
+<section id="contact" class="row">
+  <h2 class="center"> Kontakty </h2>
+  <div class="col l8 s12"><iframe width="100%" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=14.445417523384096%2C50.108106473424066%2C14.448958039283754%2C50.1096357164406&amp;layer=mapnik&amp;marker=50.10887110103617%2C14.447187781333923" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?mlat=50.10887&amp;mlon=14.44719#map=19/50.10887/14.44719">Zobrazit větší mapu</a></small></div>
+  <div class="col l4 s12">
+    Kender a.s.(s)
+    <br>
+    Adresa: Ortenovo nám. 443/6, 170 00 Praha 7-Holešovice
+    <br>
+    Telefon: <a href="tel:00420722082413">+ 420 722 082 413 </a>
+		<br>
+    E-mail: <a href="mailto:kender@europe.com">kender@europe.com</a>
+		<br>
+		IČO: 69420169
+		<br>
+		DIČ: CZ69420169
+  </div>
+  </div>
+		
+</section>
+
+</body>
 <footer>
 <link rel='stylesheet' type='text/css' href='//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css' /><style>@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap'); .madeBy { font-family: 'Open Sans', cursive; text-transform: uppercase; font-size: 1.2rem; } .madeBy>span>a { font-weight: 600; color: black; text-decoration: none; } .madeBy>span>a>img { border-radius: 250px; width: 25px; } </style><div class='madeBy center'>
 made with <i class="icon ion-heart"></i> and a little bit of code by &nbsp;
  <span><a href="https://github.com/filiptronicek"><img src="https://github.com/filiptronicek.png"></a></span>&nbsp; &amp; &nbsp; <span><a href="https://github.com/klma13"><img src="https://github.com/klma13.png"></a></span></div>
 </footer>
-</section>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/peachananr/onepage-scroll/jquery.onepage-scroll.min.js"></script>
-<script src="script.js"> </script>
-
-
-</body>
+ <script src="//cdn.jsdelivr.net/npm/jquery.scrollto@2.1.2/jquery.scrollTo.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"> </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	<script src="script.js">
+	</script>
 </html>
